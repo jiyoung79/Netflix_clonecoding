@@ -10,7 +10,7 @@ import { Outlet } from 'react-router-dom'; // 라우터 안에 있는 자손들�
 const AppLayout = () => {
    return (
       <div className='home_body'>
-         <Navbar expand='lg' style={{ backgroundColor: '#000000' }} variant='dark'>
+         <Navbar expand='lg' style={{ backgroundColor: '#000000', height:'80px'}} variant='dark'>
             <Container fluid className='navbar'>
                <Navbar.Brand href='/'>
                   <img
@@ -21,10 +21,10 @@ const AppLayout = () => {
                <Navbar.Toggle aria-controls='navbarScroll' />
                <Navbar.Collapse id='navbarScroll'>
                   <Nav className='me-auto my-2 my-lg-0' style={{ maxHeight: '100px' }} navbarScroll>
-                     <Nav.Link href='/' style={{ color: 'white', fontSize: '22px' }}>
+                     <Nav.Link href='/' style={{ color: 'white', fontSize: '17px' }}>
                         Home
                      </Nav.Link>
-                     <Nav.Link href='/movies' style={{ color: 'white', fontSize: '22px' }}>
+                     <Nav.Link href='/movies' style={{ color: 'white', fontSize: '17px' }}>
                         Movies
                      </Nav.Link>
                   </Nav>
