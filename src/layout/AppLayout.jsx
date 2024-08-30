@@ -10,7 +10,7 @@ import { Outlet } from 'react-router-dom'; // 라우터 안에 있는 자손들�
 const AppLayout = () => {
    return (
       <div className='home_body'>
-         <Navbar expand='lg' style={{ backgroundColor: '#000000', height:'80px'}} variant='dark'>
+         <Navbar expand='lg' style={{ backgroundColor: '#000000', height: '90px' }} variant='dark'>
             <Container fluid className='navbar'>
                <Navbar.Brand href='/'>
                   <img
