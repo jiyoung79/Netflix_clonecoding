@@ -3,7 +3,7 @@ import { useUpcomingMoviesQuery } from '../../../../hooks/useUpcomingMovies';
 import Alert from 'react-bootstrap/Alert';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import UpcomingMovieCard from '../MovieCard/UpcomingMovieCard';
+import UpcomingMovieCard from '../../../../common/MovieCard/UpcomingMovieCard';
 
 const responsive = {
    desktop: {
